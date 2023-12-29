@@ -22,7 +22,8 @@ export async function CreatePAN() {
     }
     else{
         spinner.stop()
-        console.log(chalk.black.bgWhite('Created the PAN : ')+" "+ chalk.bgBlueBright.bold(GSTNO));
+        // console.log(chalk.black.bgWhite('Created the PAN : ')+" "+ chalk.bgBlueBright.bold(GSTNO));
+        console.log(chalk.bgBlueBright.bold(GSTNO));
         client.close();
     }
   } catch(e) {

@@ -21,7 +21,8 @@ export async function CreateGST() {
     }
     else{
         spinner.stop()
-        console.log(chalk.black.bgWhite('Created the GST : ')+" "+ chalk.bgBlueBright.bold(GSTNO));
+        // console.log(chalk.black.bgWhite('Created the GST : ')+" "+ chalk.bgBlueBright.bold(GSTNO));
+        console.log(chalk.bgBlueBright.bold(GSTNO));
         
         client.close();
     }
